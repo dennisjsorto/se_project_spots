@@ -35,13 +35,14 @@
 }
 
 .profile__add-btn {
+  display: flex;
+  padding: 18px 32px;
   margin-left: auto;
   background-color: #212121;
   color: #fff;
   width: 149px;
   height: 52px;
   border-radius: 8px;
-  padding: 18px 32px;
 }
 
 @media screen and (max-width: 627px) {
