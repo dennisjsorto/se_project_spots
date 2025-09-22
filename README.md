@@ -27,4 +27,4 @@ Future Improvements
 - Enhance mobile layout for smaller screens
 - Add user sign-in or profile customization\*
 
-Project Screenshot (./images/project-screenshot.png)
+Project Screenshot (https://github.com/dennisjsorto/se_project_spots/blob/main/project-screenshot.png?raw=true)
