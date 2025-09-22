@@ -32,5 +32,4 @@ Project Screenshot
 ![image alt](https://github.com/dennisjsorto/se_project_spots/blob/main/project-screenshot.png?raw=true)
 
 Project Demo
-
-![video alt](https://youtu.be/FLfQA8z_N7Y)
+(https://youtu.be/FLfQA8z_N7Y)
