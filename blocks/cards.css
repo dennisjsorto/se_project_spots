@@ -1,12 +1,11 @@
-.card__image {
-  height: 413px;
-  width: 100%;
-  object-fit: cover;
-  display: block;
-  border-radius: 8px;
+.cards {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #21212166;
 }
 
 .card__like-button {
+  margin-top: 12px;
   background-image: url(../images/heart.svg);
   height: 20px;
   width: 23px;

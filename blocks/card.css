@@ -1,5 +1,9 @@
-.cards {
-  padding-top: 20px;
+.card__image {
+  height: 413px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
 }
 
 .card__title {
@@ -7,33 +11,30 @@
   font-size: 20px;
   line-height: 24px;
   color: #151515;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 353px;
 }
 
 .cards__list {
-  margin-bottom: 20px;
   list-style-type: none;
   padding: 0;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 413px);
+  grid-template-columns: repeat(auto-fit, 413px);
   justify-content: center;
   gap: 40px 20px;
 }
-@media screen and (min-width: 1320px) {
-  .cards__list {
-    grid-template-columns: repeat(3, 413px);
-  }
-}
-
-@media screen and (min-width: 880px) and (max-width: 1320px) {
-  .cards__list {
-    grid-template-columns: repeat(2, 413px);
-  }
-}
 
 @media screen and (max-width: 627px) {
+  .cards {
+    padding-bottom: 20px;
+  }
+
   .cards__list {
-    grid-template-columns: repeat(auto-fill, 288px);
+    grid-template-columns: repeat(auto-fit, 288px);
     margin: 0 auto;
+    gap: 20px;
   }
 }
